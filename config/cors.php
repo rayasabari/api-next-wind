@@ -21,12 +21,11 @@ return [
         'logout',
         'register',
         'user/password',
-        'forgot/password',
-        'reset/password',
+        'forgot-password',
+        'reset-password',
         'sanctum/csrf-cookie',
         'user/profile-information',
         'email/verification-notification'
-
     ],
 
     'allowed_methods' => ['*'],
