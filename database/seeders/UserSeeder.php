@@ -16,7 +16,8 @@ class UserSeeder extends Seeder
     {
         collect([
             [
-                'name' => 'Raya',
+                'name' => 'Raya Sabari',
+                'username' => 'rayasabari',
                 'email' => 'hi@rayasabari.com',
                 'email_verified_at' => null,
                 'password' => bcrypt('password'),
@@ -24,7 +25,8 @@ class UserSeeder extends Seeder
                 'updated_at'  => now(),
             ],
             [
-                'name' => 'Eva',
+                'name' => 'Eva Holillah',
+                'username' => 'evaholillah',
                 'email' => 'eva@rayasabari.com',
                 'email_verified_at' => null,
                 'password' => bcrypt('password'),
